@@ -56,3 +56,58 @@ a { text-decoration:none;color:inherit; }
    background-color: #004d40;
    transform: scale(1.05);
  }
+
+.about{
+  background:#fafafa;
+  padding:80px 20px;
+}
+
+.about-content{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:40px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.about-image {
+  height:250px;
+  width:250px;
+  border-radius:20px;
+  object-fit:cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex:1 1 400px;
+}
+
+.about-text h2{
+  font-size:2rem;
+  margin-bottom:20px;
+  color:#00796b;
+}
+
+.about-text p {
+  color:#333;
+  line-height:1.6;
+  margin-bottom:20px;
+}
+
+.skills {
+  list-style:none;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.skills li {
+  background:#00796b;
+  color:white;
+  padding:8px 14px;
+  border-radius:8px;
+  font-size:0.95rem;
+}
