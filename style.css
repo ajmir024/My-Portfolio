@@ -1,0 +1,6 @@
+/* simple reset */
+*{box-sizing: border-box; margin:0; padding 0;}
+html body{height:100%;background-color:blue;}
+body{ font-family:system-ui,-apple-system,"segoe UI",Roboto,sans-serif; line-height:1.5; padding:20px; }
+a { text-decoration:none;color:inherit; }
+
