@@ -174,3 +174,13 @@ a { text-decoration:none;color:inherit; }
 .project-card a:hover {
   background:#004d40;
 }
+
+
+.project-card {
+  text-align: left;
+}
+
+.project-card a {
+  display: block;
+  margin: 15px auto 0; /* auto = centers horizontally */
+}
