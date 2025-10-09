@@ -1,5 +1,5 @@
 /* simple reset */
-*{box-sizing: border-box; margin:0; padding 0;}
+*{box-sizing: border-box; margin:0; padding:0;}
 html body{height:100%;}
 body{ font-family:system-ui,-apple-system,"segoe UI",Roboto,sans-serif; line-height:1.5; padding:20px; }
 a { text-decoration:none;color:inherit; }
@@ -245,7 +245,7 @@ padding-top:80px;
 }
 
 .logo {
-  fon-size: 1.5rem;
+  font-size: 1.5rem;
   font-weight:bold;
 }
 
