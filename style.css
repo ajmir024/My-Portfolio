@@ -184,4 +184,41 @@ a { text-decoration:none;color:inherit; }
   text-align: left;
 }
 
+.contact{
+  text-align:center;
+  background:#e0f2f1;
+  padding:80px 20px;
+}
 
+.contact h2 {
+  color:004d40;
+  font-size:2rem;
+  margin-bottom:15px;
+}
+
+.contact p {
+  font-size:1rem;
+  color:#333;
+  margin-bottom:30px;
+}
+
+contact-info{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap: 15px;
+}
+
+.contact-btn {
+  background:#00796b;
+  color:white;
+  padding: 12px 20px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight: 500;
+  transition:background 0.3s;
+}
+
+.contact-btn:hover {
+  background:#004d40;
+}
