@@ -186,8 +186,9 @@ a { text-decoration:none;color:inherit; }
 
 .contact{
   text-align:center;
-  background:#9fb3b1;
+  background:#004d40;
   padding:80px 20px;
+  color:white;
 }
 
 .contact h2 {
@@ -210,8 +211,8 @@ a { text-decoration:none;color:inherit; }
 }
 
 .contact-btn {
-  background:#00796b;
-  color:white;
+  background:#80cbc4;
+  color:#004d40;
   padding: 12px 20px;
   border-radius:8px;
   text-decoration:none;
@@ -220,5 +221,44 @@ a { text-decoration:none;color:inherit; }
 }
 
 .contact-btn:hover {
+  background:#b2dfdb;
+}
+
+
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
   background:#004d40;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 15px 40px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+  z-index:1000;
+}
+
+.logo {
+  fon-size: 1.5rem;
+  font-weight:bold;
+}
+
+.nav-links {
+  list-style:none;
+  display: flex;
+  gap: 25px;
+  margin:0;
+  padding:0;
+}
+.nav-links a {
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  transition:color 0.3s;
+}
+
+.nav-links a:hover {
+  color:#80cbc4;
 }
