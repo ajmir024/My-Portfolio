@@ -266,3 +266,13 @@ padding-top:80px;
 .nav-links a:hover {
   color:#80cbc4;
 }
+
+.footer {
+  background : #00251a;
+  color:white;
+  text-align:center;
+  padding: 20px 10px;
+  font-size: 0.95rem;
+  letter-spacing:0.5px;
+  border-top:2px solid #004d40;
+}
