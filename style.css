@@ -1,16 +1,17 @@
 /* simple reset */
 *{box-sizing: border-box; margin:0; padding:0;}
 html body{
-  height:100%;
-  margin:0;
-  padding:0;
+height:100%;
+padding:0;
+
 }
 body{ font-family:system-ui,-apple-system,"segoe UI",Roboto,sans-serif; line-height:1.5; padding:20px; }
 a { text-decoration:none;color:inherit; }
 html{scroll-behavior: smooth}
 section {
 padding-top:80px;
-  width:100%;
+
+
 }
 
 /* Hero Section */
@@ -22,6 +23,7 @@ padding-top:80px;
    background: linear-gradient(135deg, #e0f7fa, #e8f5e9);
    text-align: center;
    padding: 20px;
+   
  }
 .hero-content {
    max-width: 600px;
@@ -245,7 +247,7 @@ padding-top:80px;
   justify-content:space-between;
   align-items:center;
   padding: 15px 40px;
-  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+  box-shadow:0 2px 10px rgba(0,0,0,0.3);
   z-index:1000;
 }
 
@@ -280,4 +282,32 @@ padding-top:80px;
   font-size: 0.95rem;
   letter-spacing:0.5px;
   border-top:2px solid #004d40;
+}
+
+.services{
+  padding:80px 20px; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:40px;
+  max-width:1000px;
+  width:100%; 
+  margin:auto;
+ }
+ 
+.services-title{
+  font-size:2rem;
+  margin-bottom:20px;
+  color:#00796b;  
+}
+
+.service-info{
+   color:#333;
+  line-height:1.6;
+  margin-bottom:20px; 
+}
+
+.service-info span{
+   font-weight:bold;
 }
